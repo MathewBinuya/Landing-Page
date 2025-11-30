@@ -18,6 +18,7 @@
 
 .hero-image-1 {
   display: none;
+  width: 100%;
 }
 
 .hero-image-2 {
@@ -27,6 +28,32 @@
 .hero-image-3 {
   display: block;
 }
+
+.hero-sponsor-container {
+  margin-top: 3rem;
+}
+
+.sponsor-logo {
+  width: 6rem;
+}
+
+.hero-label {
+  font-family: "Inter", sans-serif;
+  color: gray;
+  font-weight: 400;
+  font-size: var(--size-xs);
+}
+
+
+.hero-sponsor {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 2.5rem;
+  margin: 2rem;
+}
+
 
 
 /* xs */
@@ -38,35 +65,51 @@
 /* md */
 @media (min-width: 768px) {
     .hero-section {
-    margin-top: 2rem;
-  }
+      margin-top: 2rem;
+    }
 
-  .hero-title {
-    text-align: center;
-    display: block;
-    font-family: "Playfair Display", serif;
-    font-size:  9rem;
-    letter-spacing: -4px;
-    font-weight: 500;
-  }
+    .hero-title {
+      text-align: center;
+      display: block;
+      font-family: "Playfair Display", serif;
+      font-size:  9rem;
+      letter-spacing: -4px;
+      font-weight: 500;
+    }
 
-  .hero-image-container {
+    .hero-image-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image-1 {
+      display: none;
+    }
+
+    .hero-image-2 {
+      display: block;
+      width: 100%;
+    }
+
+    .hero-image-3 {
+      display: none;
+    }
+
+  .hero-label {
+    font-size: var(--size-sm);
+   }
+    
+  .hero-sponsor {
     display: flex;
-    justify-content: center;
-  }
+    margin: 1rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   }
 
-  .hero-image-1 {
-    display: none;
+  .sponsor-logo {
+    width: 8rem;  
   }
-
-  .hero-image-2 {
-    display: block;
-  }
-
-  .hero-image-3 {
-    display: none;
-  }
-
 }
 
 /* lg */
@@ -100,6 +143,22 @@
   .hero-image-3 {
     display: none;
   }
+
+  .hero-label {
+  font-size: var(--size-base);
+  }
+  
+  .hero-sponsor {
+    display: flex;
+    margin: 1rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .sponsor-logo {
+    width: 8.5rem;  
+  }
+
 }
 
 /* xl */
