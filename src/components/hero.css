@@ -27,6 +27,7 @@
 
 .hero-image-3 {
   display: block;
+  width: 100%;
 }
 
 .hero-sponsor-container {
@@ -39,7 +40,7 @@
 
 .hero-label {
   font-family: "Inter", sans-serif;
-  color: gray;
+  color: var(--clr-accent-6);
   font-weight: 400;
   font-size: var(--size-xs);
 }
