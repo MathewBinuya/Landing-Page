@@ -2,7 +2,6 @@
   margin-top: 12rem;
 }
 
-
 .info-label {
   font-family: "Inter", sans-serif;
   color: var(--clr-accent-1);
@@ -38,17 +37,15 @@
 .info-container {
   margin-top: 10rem;
   display: grid;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
   gap: 3rem;
 }
 
-
-
 .info-paragraph {
   color: var(--clr-accent-6);
   margin-top: 1rem;
-  font-size: var(--size-xs);
+  font-size: var(--size-sm);
   word-wrap: break-word;
   width: 15rem;
 }
@@ -57,9 +54,27 @@
 .info-label-inner {
   font-family: "Playfair Display", serif;
   font-weight: bold; 
-  font-size: var(--size-sm);
+  font-size: var(--size-base);
 } 
 
+.info-image-container {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.info-image-1 {
+  display: none;
+}
+
+.info-image-2 {
+  display: none;
+}
+
+
+.info-image-3 {
+  display: block;
+}
 
 
 
@@ -80,13 +95,11 @@
   }
 
   .info-description {
-    margin-top: 3rem;
     color: var(--clr-accent-6);
     width: 27rem;
   }
   
   .info-container {
-    margin-top: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -104,6 +117,24 @@
     font-size: var(--size-sm);
     word-wrap: break-word;
     width: 20rem;
+  }
+
+  .info-image-container {
+  display: flex;
+  justify-content: center;
+ }
+
+  .info-image-1 {
+    display: none;
+  }
+
+  .info-image-2 {
+    display: block;
+  }
+
+
+  .info-image-3 {
+    display: none;
   }
 
 
@@ -126,7 +157,6 @@
   }
 
   .info-container {
-    margin-top: 10rem;
     display: flex;
     flex-direction: row;
    justify-content: space-evenly;
@@ -140,12 +170,28 @@
 
    .info-paragraph {
     color: var(--clr-accent-6);
-    margin-top: 1rem;
     font-size: var(--size-base);
     word-wrap: break-word;
     width: 15rem;
   }
 
+  .info-image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-image-1 {
+    display: block;
+  }
+
+  .info-image-2 {
+    display: none;
+  }
+
+
+  .info-image-3 {
+    display: none;
+  }
 }
 
 /* xl */
