@@ -1,0 +1,156 @@
+.carousel-section {
+   margin-top: 5rem;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.carousel-title {
+  font-family: "Playfair Display", serif;
+  font-size: var(--size-5xl);
+  text-align: start;
+  margin-top: 3rem;
+}
+
+.carousel-description {
+  color: var(--clr-accent-6);
+  font-size: var(--size-base);
+  margin-top: 3rem;
+}
+
+
+
+.carousel-list {
+  color: var(--clr-accent-6);
+  font-weight: bold;
+  list-style-type: decimal-leading-zero;
+  width: 25rem;
+}
+
+.carousel-paragraph {
+  margin-top: 3rem;
+  font-family: "Inter", sans-serif;
+  color: var(--clr-accent-4);
+  font-weight: 300;
+  font-size: var(--size-base); 
+}
+
+.carousel-btn {
+  margin-top: 4rem;
+  padding: 0.7rem 1rem;
+  font-weight: bold;
+}
+
+
+.caoursel-img-1 {
+  display: none;
+}
+
+.caoursel-img-2 {
+  display: none;
+}
+
+.caoursel-img-3 {
+  display: block;
+  width: 100%;
+}
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 670px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .carousel-title {
+    font-size: var(--size-5xl);
+  }
+
+  .carousel-description {
+    font-size: var(--size-base);
+  }
+
+
+  .carousel-list {
+    width: 40rem;
+  }
+
+  .carousel-paragraph {
+    font-size: var(--size-base); 
+  }
+
+
+  .caoursel-img-1 {
+    display: none;
+  }
+
+  .caoursel-img-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .caoursel-img-3 {
+    display: none;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .carousel-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .carousel-title {
+      font-size: var(--size-5xl);
+    }
+
+    .carousel-description {
+      font-size: var(--size-base);
+    }
+
+
+    .carousel-paragraph-con {
+      margin-top: 4rem;
+    }
+
+    .carousel-list {
+      width: 30rem;
+    }
+
+    .carousel-paragraph {
+      font-size: var(--size-base); 
+    }
+
+
+    .caoursel-img-1 {
+      display: block;
+      width: 100%;
+    }
+
+    .caoursel-img-2 {
+      display: none;
+    }
+
+    .caoursel-img-3 {
+      display: none;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

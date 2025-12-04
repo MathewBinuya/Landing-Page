@@ -55,6 +55,7 @@
   font-family: "Playfair Display", serif;
   font-weight: bold; 
   font-size: var(--size-base);
+  word-spacing: 1px;
 } 
 
 .info-image-container {
@@ -65,15 +66,18 @@
 
 .info-image-1 {
   display: none;
+  width: 100%;
 }
 
 .info-image-2 {
   display: none;
+  width: 100%;
 }
 
 
 .info-image-3 {
   display: block;
+  width: 100%;
 }
 
 
