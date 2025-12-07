@@ -1,0 +1,79 @@
+.specifications-section {
+  margin-top: 7rem;
+}
+
+.specific-header {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.specific-label {
+  color: var(--clr-accent-1);
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: var(--size-sm);
+}
+
+.specific-title {
+    font-family: "Playfair Display", serif;
+    font-size: var(--size-5xl);
+    font-weight: 500;
+}
+
+.specific-paragraph {
+  color: var(--clr-accent-6);
+  width: 25rem;
+}
+
+.specific-btn {
+  padding: 0.5rem 1rem;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 670px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .specific-label {
+    font-size: var(--size-sm);
+  }
+
+  .specific-title {
+      font-size: var(--size-5xl);
+  }
+
+  .specific-paragraph {
+    color: var(--clr-accent-6);
+    width: 38rem;
+  }
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .specific-label {
+    font-size: var(--size-base);
+  }
+
+  .specific-title {
+      font-family: "Playfair Display", serif;
+      font-size: var(--size-5xl);
+  }
+
+  .specific-paragraph {
+    color: var(--clr-accent-6);
+    width: 45rem;
+  }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

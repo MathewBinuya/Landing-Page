@@ -13,6 +13,7 @@
   font-size: var(--size-5xl);
   text-align: start;
   margin-top: 3rem;
+  font-weight: 500;
 }
 
 .carousel-description {
