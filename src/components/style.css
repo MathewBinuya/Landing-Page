@@ -78,12 +78,16 @@ button {
   border-radius: 40px;
   border: none;
   font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .light-btn {
+  font-family: "Inter", sans-serif;
   background-color:#DFECC6;
   color: black;
   border-radius: 40px;
   border: none;
-  font-weight: bold;
+  font-weight: bolder;
+  text-align: center;
 }
