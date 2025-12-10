@@ -1,0 +1,151 @@
+.qoute-section {
+  margin-top: 5rem;
+}
+
+.qoute-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  gap: 2rem;
+}
+
+.qoute-p-con {
+  color: var(--clr-accent-4);
+  text-align: start;
+}
+
+.qoute-p {
+  font-family: "Playfair Display", serif;
+  width: 18rem;
+  font-size: var(--size-2xl);
+  font-weight: 500;
+  word-spacing: 5px;
+}
+
+.qoute-name-con {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.qoute-name{
+  font-weight: 600;
+  font-size: var(--size-base);
+}
+
+.qoute-label {
+  color: var(--clr-accent-1);
+  font-size: var(--size-base); 
+  font-weight: 600;
+}
+
+.qoute-image-1 {
+  display: none;
+
+}
+
+.qoute-image-2 {
+  display: none;
+}
+
+.qoute-image-3 {
+  display: block;
+  width: 100%;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 670px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .qoute-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qoute-p {
+    width: 40rem;
+    font-size: var(--size-3xl);
+  }
+
+  .qoute-name-con {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .qoute-name{
+    font-weight: 600;
+    font-size: var(--size-lg);
+  }
+
+  .qoute-label {
+    font-size: var(--size-base); 
+    font-weight: 600;
+  }
+
+  .qoute-image-1 {
+    display: none;
+  }
+
+  .qoute-image-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .qoute-image-3 {
+    display: none;
+  }
+}
+
+
+
+/* lg */
+@media (min-width: 1024px) {
+  .qoute-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .qoute-p {
+    width: 30rem;
+    font-size: var(--size-4xl);;
+  }
+
+  .qoute-name-con {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qoute-name{
+    font-size: var(--size-lg);
+  }
+
+  .qoute-label {
+    font-size: var(--size-base);
+  }
+
+  .qoute-image-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .qoute-image-2 {
+    display: none;
+  }
+
+  .qoute-image-3 {
+    display: none;
+  }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
