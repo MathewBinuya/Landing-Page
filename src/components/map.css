@@ -1,0 +1,170 @@
+.map-section {
+  margin-top: 10rem;
+}
+
+.map-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.map-title-header {
+  font-family: "Playfair Display", serif;
+  font-size: var(--size-4xl);
+  width: 20rem;
+  font-weight: 500;
+}
+
+.map-btn {
+  padding: 0.8rem 1.5rem;
+}
+
+
+.map-info-con {
+  margin-top: 10rem;
+  display: grid;
+  place-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.map-info {
+  width: 15rem;
+}
+
+.map-title {
+  text-align: center;
+  font-weight: 500;
+  color: var(--clr-accent-6);
+  font-size: var(--size-6xl);
+}
+
+.map-label {
+  margin-top: 2rem;
+  font-family: "Playfair Display", serif;
+  text-align: start;
+  font-weight: 600;
+  font-size: var(--size-base);
+}
+
+.map-p {
+  margin-top: 1rem;
+  font-size: var(--size-base);
+  color: var(--clr-accent-6);
+}
+
+
+.map-img-con {
+  margin-top: 10rem;
+}
+
+.map-img-1 {
+  display: block;
+  width: 100%;
+}
+
+.map-img-2 {
+  display: none;
+}
+
+.map-img-3 {
+  display: none;
+}
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 670px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .map-con {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .map-title-header {
+    width: 20rem;
+    font-size: var(--size-4xl);
+  }
+
+  .map-info-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .map-info {
+    width: 25rem;
+  }
+
+  .map-title {
+    font-size: var(--size-5xl);
+  }
+
+  .map-img-1 {
+    display: none;
+  }
+
+  .map-img-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .map-img-3 {
+    display: none;
+  }
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .map-con {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .map-title-header {
+    width: 25rem;
+    font-size: var(--size-5xl);
+  }
+
+  .map-info-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .map-info {
+    width: 25rem;
+  }
+
+  .map-title {
+    font-size: var(--size-6xl);
+  }
+
+  .map-img-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .map-img-2 {
+    display: none;
+  }
+
+  .map-img-3 {
+    display: none;
+  }
+
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
