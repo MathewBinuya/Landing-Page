@@ -22,15 +22,15 @@
 
 
 .map-info-con {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: grid;
   place-content: center;
   flex-direction: column;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .map-info {
-  width: 15rem;
+  width: 12rem;
 }
 
 .map-title {
@@ -60,8 +60,7 @@
 }
 
 .map-img-1 {
-  display: block;
-  width: 100%;
+  display: none;
 }
 
 .map-img-2 {
@@ -69,10 +68,9 @@
 }
 
 .map-img-3 {
-  display: none;
+  display: block;
+  width: 100%;
 }
-
-
 
 
 /* xs */

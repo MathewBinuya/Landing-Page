@@ -1,0 +1,81 @@
+.contact-section {
+ margin-top: 10rem;
+}
+
+.contact-con {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: "Playfair Display", serif;
+  font-size: var(--size-3xl);
+  font-weight: 500;
+}
+
+.contact-p {
+   margin-top: 2rem;
+  color: var(--clr-accent-6);
+  width: 25rem;
+}
+
+.contact-btn {
+  margin-top: 2rem;
+  padding: 0.5rem 5rem;
+  color: var(--clr-background);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 670px) {} */
+
+/* md */
+@media (min-width: 768px) {
+    .contact-title {
+      font-size: var(--size-4xl);
+    }
+
+    .contact-p {
+      width: 30rem;
+    }
+
+    .contact-btn {
+      padding: 0.5rem 10rem;
+    }
+  }
+
+  /* lg */
+  @media (min-width: 1024px) {
+
+    .contact-title {
+      font-size: var(--size-5xl);
+    }
+
+    .contact-p {
+      width: 40rem;
+    }
+
+    .contact-btn {
+      padding: 0.5rem 15rem;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

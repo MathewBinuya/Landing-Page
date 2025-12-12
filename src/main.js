@@ -7,3 +7,5 @@ import './components/carousel.css';
 import './components/specifications.css';
 import './components/qoute.css';
 import './components/map.css';
+import './components/contact.css';
+import './components/footer.css';
