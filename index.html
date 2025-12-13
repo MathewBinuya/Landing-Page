@@ -8,23 +8,40 @@
     <title>Landing page</title>
   </head>
   <body>
-    <header class="container header-shadow">
-            <h1 class="header-title">Area</h1>
-            <nav>
+    <header class="container header-shadow">     
+            <h1 class="header-title">Area</h1>    
+            <nav class="display-nav">
               <ul>
                 <li><a href="#Benefits">Benefits</a></li>
                 <li><a href="#Specifications">Specifications</a></li>
                 <li><a href="#How-to">How-to</a></li>
                 <li><a href="#Contact-Us">Contact Us</a></li>
               </ul>
-                <button class="header-burger"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"       stroke-width="1.5" stroke="currentColor">
+                <button onclick=ShowSideBar() class="header-burger"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"       stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
               </button>
             </nav>
             <button class="dark-btn header-btn">Learn More</button>
     </header>
-    <main>
+                     <!-- Start Mobile Nav -->
+      <div class="glass-card mobile-nav container">
+            <button onclick=HideSideBar() class="header-closed"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+                <h1 class="header-title">Area</h1>
+            <nav class="side-bar">
+              <ul>
+                <li><a href="#Benefits">Benefits</a></li>
+                <li><a href="#Specifications">Specifications</a></li>
+                <li><a href="#How-to">How-to</a></li>
+                <li><a href="#Contact-Us">Contact Us</a></li>
+              </ul>
+            </nav>
+      </div>
+                   <!-- End Mobile Nav -->
+      <main>  
         <section class="hero-section container">
             <h1 class="hero-title">Browse everything.</h1>
             <div class="hero-image-container">
@@ -212,9 +229,8 @@
               </ul>
           </footer> 
     </main>
-
-
     
+    <script src="/src/sidebar.js"></script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

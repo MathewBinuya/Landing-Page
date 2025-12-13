@@ -9,3 +9,5 @@ import './components/qoute.css';
 import './components/map.css';
 import './components/contact.css';
 import './components/footer.css';
+import './components/sidebar.css';
+

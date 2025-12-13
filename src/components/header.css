@@ -15,7 +15,7 @@ header {
   font-weight: 500;
 }
 
-nav {
+.display-nav {
   font-family: "Inter", sans-serif;
   font-weight: bolder;
   display: flex;
@@ -23,7 +23,7 @@ nav {
   text-align: center;
 } 
 
-nav ul {
+.display-nav ul {
   display: none;
   list-style: none;
   gap: 1rem;
@@ -41,8 +41,6 @@ nav ul {
   cursor: pointer;
   display: block;
 }
-
-
 
 /* xs */
 /* @media (min-width: 475px) {} */
@@ -69,7 +67,7 @@ nav ul {
     display: block;
   }
   
-    nav ul {
+  .display-nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
@@ -105,7 +103,7 @@ nav ul {
     display: block;
   }
   
-    nav ul {
+  .display-nav ul {
     display: flex;
     list-style: none;
     gap: 1.5rem;
